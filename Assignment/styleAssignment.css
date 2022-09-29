@@ -8,9 +8,6 @@
     border-radius: 6px;
 }
 
-*{
-    box-sizing: border-box;
-}
 .gambaralgo{
     width: inherit;
     height: 72px;
@@ -25,6 +22,10 @@
     width: inherit;
     height: 72px;
     border-radius: 6px;
+}
+.algorithm{
+    display: flex;
+    align-items: center;
 }
 /* Circular Menu */
 
