@@ -2,7 +2,30 @@
     padding-top: -10px;
     display: flex;
 }
+.gambar-compu{
+    width: inherit;
+    height: 72px;
+    border-radius: 6px;
+}
 
+*{
+    box-sizing: border-box;
+}
+.gambaralgo{
+    width: inherit;
+    height: 72px;
+    border-radius: 6px;
+}
+.gambardatabase{
+    width: inherit;
+    height: 72px;
+    border-radius: 6px;
+}
+.gambar-ai{
+    width: inherit;
+    height: 72px;
+    border-radius: 6px;
+}
 /* Circular Menu */
 
 .circular-menu {
