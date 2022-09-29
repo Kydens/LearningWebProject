@@ -16,11 +16,21 @@ body {
 }
 
 .btn-google {
-    color: white !important;
+    color: #f1f1f1;
     background-color: #ea4335;
 }
 
+.btn-google:hover {
+    color: white;
+    background-color: #ed2715;
+}
+
 .btn-facebook {
-    color: white !important;
-    background-color: #3b5998;
+    color: #f1f1f1;
+    background-color: #355393;
+}
+
+.btn-facebook:hover {
+    color: white;
+    background-color: #2d53a5;
 }
