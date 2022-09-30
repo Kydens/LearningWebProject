@@ -23,7 +23,7 @@
     height: 72px;
     border-radius: 6px;
 }
-.algorithm{
+.card .list-group .col-md-11 a {
     display: flex;
     align-items: center;
 }
