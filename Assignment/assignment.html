@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-    
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -30,7 +30,7 @@
     <!-- Navbar Section -->
     <nav class="navbar navbar-light shadow-lg p-3 mb-5" style="background-image: linear-gradient(to right,#000424 0%,#094679 0%, #00d4ff 100% );">
         <div class="container-fluid">
-            <a class="navbar-brand" href="index.html">
+            <a class="navbar-brand" href="../Home/index.html">
                 <img src="../Assets/logo_project-removebg-preview.png" alt="WebLearning" width="70">
                 <span class="navbar-brand mb-0 h1"></span>
             </a>
@@ -63,8 +63,8 @@
                     </div>
                 </div>
 -->
-    
-                <!-- <div class="row">
+
+    <!-- <div class="row">
                     <div class="col">
                         <a href="https://google.com"><img src="Assets/googleLogo.png" class="googleLogo" height="50"
                                 alt="Google"></a>
@@ -93,12 +93,12 @@
                                 alt="Google"></a>
                     </div>
                 </div> -->
-            </div>
-        </div>
+    </div>
+    </div>
     </div>
     <!-- End of Menu Logo Popup -->
 
-    <div class="container"  style="margin-top: -28px;">
+    <div class="container" style="margin-top: -28px;">
         <div class="input-group rounded">
             <input type="search" class="form-control rounded" placeholder="Search Class" aria-label="Search" aria-describedby="search-addon" />
             <span class="input-group-text border-0" id="search-addon">
@@ -106,7 +106,7 @@
             </span>
         </div>
     </div>
-    
+
     <br>
     <div class="container" style="border: none;">
         <div class="card">
@@ -115,12 +115,12 @@
                     <div class="row">
                         <div class="col-md-11">
                             <a href="#">
-                                <img src="../Assets/algorthm.jpg" class="gambaralgo" alt="kelas algoritma" style="float:left;"> 
+                                <img src="../Assets/algorthm.jpg" class="gambaralgo" alt="kelas algoritma" style="float:left;">
                                 <h6 class="algorithm">Algorithm 1<sup>st</sup> assignment</h6>
                                 <br>
                             </a>
                         </div>
-                            
+
                     </div>
                 </li>
             </ul>
@@ -132,8 +132,7 @@
                     <div class="row">
                         <div class="col-md-11">
                             <a href="#">
-                                <img src="../Assets/database.jpg" class="gambardatabase" 
-                                alt="kelas database">
+                                <img src="../Assets/database.jpg" class="gambardatabase" alt="kelas database">
                                 <h6>Database 1<sup>st</sup> assignment</h6>
                             </a>
                         </div>
@@ -148,7 +147,7 @@
                     <div class="row">
                         <div class="col-md-11">
                             <a href="#">
-                                <img src="../Assets/computing.jpg" class="gambar-compu"alt="kelas compu" style="float:left;">
+                                <img src="../Assets/computing.jpg" class="gambar-compu" alt="kelas compu" style="float:left;">
                                 <h6>Computation 1<sup>st</sup> assignment</h6>
                             </a>
                         </div>
@@ -246,8 +245,31 @@
     </div>
     <!--end point notification-->
 
-    <!-- Script -->
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <span class="modal-title" id="staticBackdropLabel"> return to main menu to use this</span>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Circular Menu -->
+    <div id="circularMenu" class="circular-menu">
+        <a class="floating-btn" onclick="document.getElementById('circularMenu').classList.toggle('active');">
+            <i class="fa fa-reorder"></i>
+        </a>
+        <menu class="items-wrapper">
+            <a href="#" class="menu-item fa fa-users" data-toggle="tooltip" data-bs-toggle="modal" data-bs-target="#staticBackdrop" data-placement="left" title="Join Class"></a>
+            <a href="#" class="menu-item material-icons" data-toggle="tooltip" data-bs-toggle="modal" data-bs-target="#staticBackdrop" data-placement="left" title="Create Class">group_add</a>
+            <a href="../Home/index.html" class="menu-item fa fa-home" data-toggle="tooltip" data-placement="left" title="Home"></a>
+            <a href="../Calendar/index.html" class="menu-item fa fa-calendar" data-toggle="tooltip" data-placement="left" title="Calender"></a>
+            <a href="../setting/setting.html" class="menu-item fa fa-cog" data-toggle="tooltip" data-placement="left" title="Setting"></a>
+        </menu>
+    </div>
 
+    <!-- Script -->
     <!-- Script Jquery -->
     <script src="https://api.jquery.com/"></script>
     <!-- Script External -->
