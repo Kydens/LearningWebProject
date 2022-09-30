@@ -17,7 +17,7 @@
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,700,0,200" />
 
-    <title>UNITOL</title>
+    <title>Class</title>
 </head>
 
 <body>
@@ -28,7 +28,7 @@
                 <div class="col">
                     <p>
                         <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample"
-                            aria-expanded="false" aria-controls="collapseWidthExample">
+                            aria-expanded="false" aria-controls="collapseWidthExample" width="50px">
                             <span class="material-symbols-outlined">
                                 menu
                             </span>
@@ -37,6 +37,9 @@
                 </div>
                 <div class="col" id="img-class">
                     <img src="/Assets/algorthm.jpg" alt="Algo" width="50px">
+                </div>
+                <div class="col title" >
+                    <h1>General</h1>
                 </div>
             </div>
         <!--End Side Nav-->
@@ -67,6 +70,9 @@
                 <!--End Nama Dosen-->
                 <hr>
                 <div class="card">
+                    <a href="../Home/index.html">Go Home</a>
+                </div>
+                <div class="card">
                     <a href="#">Assignment</a>
                 </div>
                 <div class="card">
@@ -79,21 +85,31 @@
                 <!--Start Channels-->
                 <div class="row">
                     <div class="col">
-                        1
+                        <p>
+                            <button class="btn" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#multiCollapseExample2" aria-expanded="false"
+                                aria-controls="multiCollapseExample2">
+                                <span class="material-symbols-outlined">
+                                    list
+                                    </span>
+                            </button>
+                        </p>
                     </div>
                     <div class="col">
-                        1
+                        <div class="dropdown" width="50px" height="60px">
+                            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <span class="material-symbols-outlined">
+                                    add
+                                    </span>
+                            </button>
+                            <ul class="dropdown-menu">
+                              <li><button class="dropdown-item" type="button">Make a Class</button></li>
+                              <li><button class="dropdown-item" type="button">Make an announcements</button></li>
+                              <li><button class="dropdown-item" type="button">Make an Assignment</button></li>
+                            </ul>
+                          </div>
                     </div>
                 </div>
-                <p>
-                    <button class="btn" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#multiCollapseExample2" aria-expanded="false"
-                        aria-controls="multiCollapseExample2">
-                        <span class="material-symbols-outlined">
-                            list
-                            </span>
-                    </button>
-                </p>
                 <div class="collapse multi-collapse" id="multiCollapseExample2">
                     <div class="card">
                         <a href="#">GENERAL</a>
