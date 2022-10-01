@@ -1,0 +1,14 @@
+nav{
+    border:1px solid;
+    padding: 0px;
+    margin: 8px;
+    border-radius: 3px;
+}
+
+button{
+    width: 50px;
+}
+
+.card-body{
+    margin: 8px;
+}
