@@ -23,6 +23,9 @@
     height: 72px;
     border-radius: 6px;
 }
+.card {
+    cursor: pointer;
+}
 .card .list-group .col-md-11 a {
     display: flex;
     align-items: center;
@@ -35,6 +38,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+body {
+    background-image: url(../Assets/background.jpg);
 }
 .col-md-11 img{
     margin-right: 10px;
