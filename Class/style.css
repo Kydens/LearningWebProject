@@ -1,14 +1,20 @@
 nav{
-    border:1px solid;
+    border:1px;
     padding: 0px;
     margin: 8px;
-    border-radius: 3px;
+    border-radius: 10px;
+    background-color: #ffffff;
 }
 
-button{
-    width: 50px;
+.card{
+    margin: 5px;
+    padding-left: 20px;
+    padding-right: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
-.card-body{
-    margin: 8px;
+a{
+    text-decoration: none;
+    color: black;
 }
