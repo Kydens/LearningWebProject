@@ -6,7 +6,7 @@ body {
 .card-img-left {
     /* untuk ukuran gambar disebelah kiri login*/
     width: 45%;
-    background: scroll center url('../Assets/wp\ login.webp');
+    background: scroll center url('../Assets/wp login.webp');
     background-size: cover;
 }
 
@@ -17,11 +17,11 @@ body {
 }
 
 .btn-google {
-    color: white !important;
+    color: #f1f1f1;
     background-color: #ea4335;
 }
 
 .btn-facebook {
-    color: white !important;
-    background-color: #3b5998;
+    color: #f1f1f1;
+    background-color: #355393;
 }

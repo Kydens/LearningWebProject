@@ -1,32 +1,47 @@
-.input-group rounded{
+.input-group rounded {
     padding-top: -10px;
     display: flex;
 }
-.gambar-compu{
+
+.gambar-compu {
     width: inherit;
     height: 72px;
     border-radius: 6px;
 }
 
-.gambaralgo{
+.gambaralgo {
     width: inherit;
     height: 72px;
     border-radius: 6px;
 }
-.gambardatabase{
+
+.gambardatabase {
     width: inherit;
     height: 72px;
     border-radius: 6px;
 }
-.gambar-ai{
+
+.gambar-ai {
     width: inherit;
     height: 72px;
     border-radius: 6px;
 }
+
 .card .list-group .col-md-11 a {
     display: flex;
     align-items: center;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+
+=======
+.card .list-group .col-md-11 .row .col a p{
+    display: flex;
+    align-items: center;
+}
+=======
+>>>>>>> c7673d4ce98795d64bc69237d20aa88823842770
 *{
     margin: 0;
     padding: 0;
@@ -40,16 +55,25 @@ a{
     transition: all .3s ease-in-out;
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
+<<<<<<< HEAD
+>>>>>>> 22fc26ba1798f64d1c28eeca323b5b4a168ef88d
+=======
 .container .card .list-group .list-group-item .row .col-md-11 .container:hover {
     transition: all .3s ease-in-out;
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
+<<<<<<< HEAD
+
+>>>>>>> a411511a8c71db1626a79c5313dbc513472c90ee
+=======
+>>>>>>> c7673d4ce98795d64bc69237d20aa88823842770
 /* Circular Menu */
 .circular-menu {
     position: fixed;
     bottom: 1em;
     right: 1em;
 }
+
 .circular-menu .floating-btn {
     display: block;
     width: 3.5em;
