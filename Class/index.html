@@ -21,136 +21,98 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg bg-light">
+    <nav class="navbar navbar-light shadow-lg p-3 mb-5"
+        style="background-image: linear-gradient(to right,#000424 0%,#094679 0%, #00d4ff 100% );">
         <div class="container-fluid">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <p>
-                            <button class="btn" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#collapseWidthExample" aria-expanded="false"
-                                aria-controls="collapseWidthExample" width="50px">
-                                <span class="material-symbols-outlined">
-                                    menu
-                                </span>
-                            </button>
-                        </p>
-                    </li>
-                    <li class="nav-item">
-                        <img src="../Assets/algorthm.jpg" alt="Algortm class" width="50px">
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#"><h2>GENERAL</h2></a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            <span class="material-symbols-outlined">
-                                videocam
-                                </span>
-                        </a>
-                        <ul class="dropdown-menu">
-                          <li><a class="dropdown-item" href="#">via zoom</a></li>
-                          <li><a class="dropdown-item" href="#">via Google meet</a></li>
-                          <li><hr class="dropdown-divider"></li>
-                          <li><a class="dropdown-item" href="#">Schedule a meeting</a></li>
-                        </ul>
-                      </li>
-                </ul>
-                <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit"><span class="material-symbols-outlined">
-                        search
-                        </span></button>
-                </form>
+            <a class="navbar-brand" href="../Home/index.html">
+                <img src="../Assets/logo_project-removebg-preview.png" alt="WebLearning" width="70">
+                <span class="navbar-brand mb-0 h1"></span>
+            </a>
+            <div class="d-flex align-items-center">
+                <div class="dropdown">
+                    <a class="d-flex align-items-center account" href="#" id="navbarDropdownMenuAvatar" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        <img src="../Assets/user.png" class="rounded-circle userLogo" height="30" left="10"
+                            alt="profile user" loading="lazy">
+                    </a>
+                </div>
             </div>
         </div>
     </nav>
+    <nav>
+        <p>
+            <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample"
+                aria-expanded="false" aria-controls="collapseWidthExample" width="50px">
+                <span class="material-symbols-outlined">
+                    menu
+                </span>
+            </button>
+        </p>
+    </nav>
     <div>
         <div class="collapse collapse-horizontal" id="collapseWidthExample">
-            <div class="card card-body" style="width: 15em;">
-                <div class="img-class">
-                    <img src="../Assets/algorthm.jpg" alt="algo" style="Width: 150px;">
-                    <h3>
-                        <b>Algorithm Class</b>
-                    </h3>
-                </div>
-                <!-- Start Nama Dosen-->
+            <div class="card card-body">
                 <div class="row">
-                    <div class="col col-lg-2">
-                        <span class="material-symbols-outlined">
-                            account_circle
-                        </span>
-                    </div>
-                    <div class="col">
-                        <a href="#">
-                            <h5>Nama Dosen</h5>
-                        </a>
-                    </div>
-                </div>
-                <!--End Nama Dosen-->
-                <hr>
-                <div class="card">
-                    <a href="../Home/index.html">Go Home</a>
-                </div>
-                <div class="card">
-                    <a href="#">Assignment</a>
-                </div>
-                <div class="card">
-                    <a href="#">grades</a>
-                </div>
-                <div class="card">
-                    <a href="#">Files</a>
-                </div>
-                <hr>
-                <!--Start Channels-->
-                <aside>
-                    <div class="row">
-                        <div class="col">
-                            <p>
-                                <button class="btn" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#multiCollapseExample2" aria-expanded="false"
-                                    aria-controls="multiCollapseExample2">
+                    <div class="col col-lg-3">
+                        <div class="class-info">
+                            <img src="../Assets/algorthm.jpg" alt="algo" style="Width: 200px;">
+                            <h3><b>Algorthm Class</b></h3>
+                            <div class="row">
+                                <div class="col col-sm-1">
                                     <span class="material-symbols-outlined">
-                                        list
+                                        account_circle
                                     </span>
-                                </button>
-                            </p>
-                        </div>
-                        <div class="col">
-                            <div class="dropdown" width="50px" height="60px">
-                                <button class="btn btn-secondary dropdown-toggle" type="button"
-                                    data-bs-toggle="dropdown" aria-expanded="false">
-                                    <span class="material-symbols-outlined">
-                                        add
-                                    </span>
-                                </button>
-                                <ul class="dropdown-menu">
-                                    <li><button class="dropdown-item" type="button">Make a Class</button></li>
-                                    <li><button class="dropdown-item" type="button">Make an announcements</button></li>
-                                    <li><button class="dropdown-item" type="button">Make an Assignment</button></li>
-                                </ul>
+                                </div>
+                                <div class="col">
+                                    <h5>#nama dosen#</h5>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="collapse multi-collapse" id="multiCollapseExample2">
+                    <div class="col">
                         <div class="card">
-                            <a href="#">GENERAL</a>
+                            <a href="../Home/index.html">Go Home</a>
+                        </div>
+                        <div class="card card-menu">
+                            <a href="#">Assignment</a>
+                        </div>
+                        <div class="card card-menu">
+                            <a href="#">grades</a>
+                        </div>
+                        <div class="card card-menu">
+                            <a href="#">Files</a>
                         </div>
                     </div>
-                </aside>
-                <!--end Channels-->
+                    <div class="col">
+                        <div class="btn-group">
+                            <button class="btn btn-sm" type="button">
+                                <span class="material-symbols-outlined">
+                                    more_vert
+                                    </span>
+                            </button>
+                            <button type="button" class="btn btn-sm" data-bs-toggle="dropdown" aria-expanded="false">
+                                <span class="material-symbols-outlined">
+                                    expand_more
+                                    </span>
+                            </button>
+                            <ul class="dropdown-menu">
+                              <li class="dropdown-item">Add Channel</li>
+                              <li class="dropdown-item">Add Member</li>
+                              <li class="dropdown-item">Leave the team</li>
+                              <li class="dropdown-item">Edit Team</li>
+                              <li class="dropdown-divider"></li>
+                              <li class="dropdown-item">Delete the team</li>
+                            </ul>
+                          </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
     <div class="feed-container">
         <div class="card">
             <div class="row">
-                <div class="col col-lg-1">
+                <div class="col col-sm-1">
                     <span class="material-symbols-outlined">
                         account_circle
                     </span>
@@ -160,12 +122,12 @@
                         <h5>#lecturer's name#</h5>
                     </a>
                 </div>
-                <div class="col col-lg-3">
+                <div class="col col-sm-3">
                     #tanggal#
                 </div>
-                <div class="card announce">
+                <div class="card card-announce">
                     <div class="row">
-                        <div class="col col-lg-1">
+                        <div class="col col-sm-1">
                             <span class="material-symbols-outlined">
                                 campaign
                             </span>
@@ -189,20 +151,20 @@
 
         <div class="card">
             <div class="row">
-                <div class="col col-lg-1">
+                <div class="col col-sm-1">
                     <span class="material-symbols-outlined">
                         account_circle
                     </span>
                 </div>
-                <div class="col col-lg-2">
+                <div class="col col-sm-2">
                     <a href="#">
                         <h5>#Lecturer's assistant#</h5>
                     </a>
                 </div>
-                <div class="col col-lg-3">
+                <div class="col col-sm-3">
                     #tanggal#
                 </div>
-                <div class="card announce">
+                <div class="card card-announce">
                     <div class="row">
                         <div class="col col-lg-1">
                             <span class="material-symbols-outlined">
@@ -228,12 +190,12 @@
 
         <div class="card">
             <div class="row">
-                <div class="col col-lg-1">
+                <div class="col col-sm-1">
                     <span class="material-symbols-outlined">
                         Assignment
                     </span>
                 </div>
-                <div class="col col-lg-3">
+                <div class="col col-sm-3">
                     #tanggal#
                 </div>
                 <div class="card card-assignment">
