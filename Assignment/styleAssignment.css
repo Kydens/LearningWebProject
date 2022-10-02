@@ -32,6 +32,7 @@
     align-items: center;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
 =======
@@ -39,16 +40,12 @@
     display: flex;
     align-items: center;
 }
+=======
+>>>>>>> c7673d4ce98795d64bc69237d20aa88823842770
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-.col-md-11 img{
-    margin-right: 10px;
-}
-.col-md-11 h6{
-    margin-bottom: 5px;
 }
 a{
     color: black;
@@ -65,10 +62,12 @@ a{
     transition: all .3s ease-in-out;
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
+<<<<<<< HEAD
 
 >>>>>>> a411511a8c71db1626a79c5313dbc513472c90ee
+=======
+>>>>>>> c7673d4ce98795d64bc69237d20aa88823842770
 /* Circular Menu */
-
 .circular-menu {
     position: fixed;
     bottom: 1em;
