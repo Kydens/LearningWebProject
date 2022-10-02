@@ -31,13 +31,11 @@
     display: flex;
     align-items: center;
 }
-
-.card .list-group .col-md-11 .row .col a p {
+.card .list-group .col-md-11 .row .col a p{
     display: flex;
     align-items: center;
 }
-
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -52,12 +50,10 @@ a {
     transition: all .3s ease-in-out;
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
-
 .container .card .list-group .list-group-item .row .col-md-11 .container:hover {
     transition: all .3s ease-in-out;
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
-
 
 /* Circular Menu */
 
