@@ -27,21 +27,13 @@
     display: flex;
     align-items: center;
 }
-.card .list-group .col-md-11 .row .col a p{
-    display: flex;
-    align-items: center;
-}
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-.col-md-11 img{
-    margin-right: 10px;
-}
-.col-md-11 h6{
-    margin-bottom: 5px;
-}
+
+
 a{
     color: black;
     text-align: none;
