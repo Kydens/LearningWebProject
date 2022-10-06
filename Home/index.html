@@ -327,13 +327,14 @@
                         <div class="col-md-4">
                             <div class="card-header">Profile Picture</div>
                             <div class="card-body text-center">
-                                <!-- Profile picture image-->
-                                <br>
-                                <i class="fa fa-window-maximize fa-5x" aria-hidden="true"></i>
-                                <!-- Profile picture help block-->
-                                <div class="small font-italic text-muted mb-4">JPG or PNG no larger than 5 MB</div>
-                                <!-- Profile picture upload button-->
-                                <button class="btn-primary" type="button">Upload new image</button>
+                                <div class="profile-pic">
+                                    <label class="-label" for="file">
+                                        <span class="fa fa-camera"></span>
+                                        <span>Change Image</span>
+                                    </label>
+                                    <input id="file" type="file" onchange="loadFile(event)">
+                                    <img src="https://cdn.pixabay.com/photo/2017/08/06/21/01/louvre-2596278_960_720.jpg" id="output" width="200">
+                                </div>
                             </div>
                         </div>
                         <div class="col-md-8">
